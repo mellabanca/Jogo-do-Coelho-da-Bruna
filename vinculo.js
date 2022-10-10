@@ -11,4 +11,7 @@ stiffness: 0.01
 })
 World.add (engine.world,this.vinculo)
 }
+separar(){
+World.remove(engine.world,this.vinculo)
+}
 }
